@@ -49,6 +49,11 @@ body {
   justify-content: center;
 }
 
+.product-grid h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
 .product-list {
   display: flex;
   flex-wrap: wrap;
@@ -175,9 +180,9 @@ body {
 }
 
 .cart_quantity_count {
-  margin-top: 16px;
+  top: 32px;
   /* background-color: red; */
-  margin-left: 27px;
+  right: 40px;
   position: absolute;
   font-size: 29px;
 }
